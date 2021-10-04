@@ -1,7 +1,7 @@
 Start=int(input('Starting intiger :'))
 End=int(input('Ending intiger :'))
 
-if Start < 0:
+if Start < 0 :
     print('1 ) The numbers lessthan 0 is not supposed to be count as either odd or even.')
     print('2 ) {0} to -1 are not considered as per the above statement.'.format(Start))
     Start = 0
